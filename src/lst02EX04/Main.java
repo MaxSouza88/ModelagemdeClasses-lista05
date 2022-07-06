@@ -17,8 +17,8 @@ public class Main {
         System.out.println(r1);
         System.out.println(r2);
 
-        pessoa1.crescer(0.4);
-        r1 = pessoa2.p1();
+        pessoa1.crescer(4);
+        r1 = pessoa1.p1();
 
         System.out.println(r1);
 
