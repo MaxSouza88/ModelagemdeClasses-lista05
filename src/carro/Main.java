@@ -5,7 +5,8 @@ public class Main {
 
         Carro c1 = new Carro();
 
-
+        c1.cadCarro();
+        c1.ligaCarro();
 
     }
 }

@@ -1,16 +1,31 @@
 package retangulo;
 
+import java.util.Scanner;
+
 public class Retangulo {
+    Scanner input = new Scanner(System.in);
     double baseRet;
     double alturaRet;
 
-    public Retangulo(double baseRet, double alturaRet) {
+    double resultArea;
+    double resultPer;
+
+    public Retangulo() {
         this.baseRet = baseRet;
         this.alturaRet = alturaRet;
     }
+    public void resultado(){
+        System.out.println("Informe valor da Base");
+        baseRet = input.nextDouble();
 
-    public String Retangulo1(){
-        String result = "Base: " +baseRet+ " Altura: " +alturaRet;
-        return result;
+        System.out.println("Informe valor da Altura");
+        alturaRet = input.nextDouble();
+
+        resultArea = baseRet * alturaRet;
+        resultPer = (baseRet * alturaRet) * 2;
+
+        System.out.println("Valor da Area: " +resultArea);
+        System.out.println("Valor do Perímetro: " +resultPer);
+
     }
 }
