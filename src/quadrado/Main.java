@@ -1,4 +1,4 @@
-package lst02EX02;
+package quadrado;
 
 import java.util.Scanner;
 
@@ -16,11 +16,11 @@ public class Main {
         System.out.println("Informe nova medida da base do Quadrado: ");
         quadrado.ladoQuadrado = input.nextDouble();
 
-        double teste = quadrado.ladoQuadrado * 2 ;
+        double quad1 = quadrado.ladoQuadrado * 2 ;
 
         System.out.println("Calculando ........");
 
-        System.out.println("Nova área do Quadrado é: " +teste);
+        System.out.println("Nova área do Quadrado é: " +quad1);
 
 
 

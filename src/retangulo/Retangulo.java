@@ -1,4 +1,4 @@
-package lst02EX03;
+package retangulo;
 
 public class Retangulo {
     double baseRet;

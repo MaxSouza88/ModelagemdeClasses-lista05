@@ -1,4 +1,4 @@
-package lst02EX02;
+package quadrado;
 
 public class Quadrado {
 
